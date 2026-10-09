@@ -21,7 +21,7 @@ LOCAL_C_INCLUDES += \
 LOCAL_HEADER_LIBRARIES := \
     libutils_headers
 
-LOCAL_STATIC_LIBRARIES := libcdm_protos libcrypto
+LOCAL_STATIC_LIBRARIES := libcdm_protos libcrypto_static
 
 SRC_DIR := src
 CORE_SRC_DIR := core/src
